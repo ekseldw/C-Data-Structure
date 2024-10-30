@@ -62,7 +62,7 @@ using namespace std;
 
 #define insertArray(ary, position, data) ary.insert(ary.begin() + position, data)
 
-#define isInArray(ary, data) find(ary.begin(), ary.end(), data)
+#define isInArray(ary, data) find(ary.begin(), ary.end(), data) != ary.end()
 
 #define setArray(ary) ary.erase(unique(ary.begin(), ary.end()), ary.end())
 
